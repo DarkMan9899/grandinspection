@@ -1,0 +1,138 @@
+
+.my-team-container {
+    background-image: url("/src/components/Img/bg-section-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.My_Team_title p  {
+    font-size: 36px;
+    padding-bottom: 50px;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.post-details p{
+    font-weight: 700;
+
+}
+
+.blog-posts h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: left;
+    padding: 50px 37px;
+}
+
+.slick-slider {
+    margin: 0 -10px;
+}
+
+.slick-slide {
+    box-sizing: border-box;
+}
+
+.post_my_team {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.post_my_team img {
+    width: 100%;
+    height: auto;
+}
+
+.post-details {
+    padding: 15px;
+    text-align: left;
+    /*background-image: url("/src/Img/fon drosh.svg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-details p {
+    margin: 10px 0;
+}
+
+.post-details .post-date {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+
+
+    .my-team-container{
+        height: 100vh;
+    }
+    .blog-posts h2 {
+        font-size: 1.75rem;
+    }
+
+    .post_my_team {
+        max-width: 45%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .My_Team_title p  {
+        font-size: 36px;
+        padding-bottom: 50px;
+        color: white;
+        font-weight: 700;
+        margin-top: 150px;
+    }
+    .blog-posts h2 {
+        font-size: 1.5rem;
+    }
+
+    .post_my_team {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .post-details {
+        padding: 10px;
+    }
+
+    .post-details p {
+        margin: 8px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .My_Team_title p  {
+        font-size: 36px;
+        padding-bottom: 50px;
+        color: white;
+        font-weight: 700;
+        margin-top: 150px;
+    }
+    .blog-posts h2 {
+        font-size: 1.25rem;
+    }
+
+    .post {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .post-details {
+        padding: 8px;
+    }
+
+    .post-details p {
+        margin: 6px 0;
+    }
+}

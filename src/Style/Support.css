@@ -1,0 +1,73 @@
+.Our_Partners {
+    /* Add any general styles for .Our_Partners if needed */
+}
+
+.post {
+    width: 45%;
+    padding-left: 40px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.Our_Partners—post img {
+    width: 200px;
+    height: 100px;
+}
+
+.Our_Partners_FW_title {
+    display: flex;
+    flex-direction: column; /* Change to column direction for smaller screens */
+    align-items: flex-start; /* Align text to the start */
+}
+
+.Our_Partners_FW_title p {
+    font-size: 36px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    color: black;
+    margin: 0; /* Remove default margin */
+}
+
+.container_Our_Partners {
+    max-width: 1200px;
+    margin: 0 auto;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding: 50px 15px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .post {
+        width: 48%;
+        padding-left: 20px;
+    }
+    .Our_Partners_FW_title p {
+        font-size: 32px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .post {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .FW_title {
+    }
+    .Our_Partners_FW_title p {
+        font-size: 28px;
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .Our_Partners—post img {
+    }
+    .Our_Partners_FW_title p {
+        font-size: 24px;
+    }
+}

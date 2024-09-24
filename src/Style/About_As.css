@@ -1,0 +1,51 @@
+
+.about_us
+{background-image: url("/src/components/Img/bg-section-3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section p, .section ul {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.section ul li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .about_us {
+        padding: 10px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}

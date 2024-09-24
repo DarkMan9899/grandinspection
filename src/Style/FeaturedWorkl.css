@@ -1,0 +1,66 @@
+.gallery_posts {
+    background-image: url("/src/components/Img/bg-section-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.post {
+    width: 45%;
+    padding-left: 40px;
+}
+
+.post img {
+    width: 100%;
+    height: 300px;
+}
+
+.FW_title {
+    display: flex;
+}
+
+.FW_title p {
+    font-size: 36px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .post {
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .FW_title p {
+        font-size: 32px;
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .post {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .FW_title p {
+        font-size: 28px;
+        padding-left: 15px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .FW_title p {
+        font-size: 24px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+}

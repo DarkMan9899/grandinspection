@@ -1,0 +1,101 @@
+.cont_container {
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.contact_page {
+    background-image: url("/src/components/Img/slider/133.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact_page p {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.contact-info {
+    width: 100%; /* Full width for small screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.contact-item {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.c_icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.c_icon_l {
+    width: 40%;
+    height: auto;
+}
+
+.contact-map {
+    width: 100%; /* Full width for small screens */
+    height: auto; /* Auto height to maintain aspect ratio */
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.contact-map iframe {
+    width: 100%; /* Full width for responsiveness */
+    height: 300px; /* Default height for map iframe */
+    border: none;
+    border-radius: 10px;
+}
+.icon_fb:hover{
+    cursor: pointer;
+
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .cont_container {
+        flex-direction: row; /* Row direction for larger screens */
+    }
+
+    .contact-info {
+        width: 45%;
+    }
+
+    .contact-map {
+        width: 50%;
+    }
+
+    .contact_page p {
+        font-size: 2.5rem; /* Increase font size for larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact_page p {
+        font-size: 3rem; /* Even larger font size for large screens */
+    }
+
+    .contact-map iframe {
+        height: 400px; /* Increase map height for large screens */
+    }
+}
